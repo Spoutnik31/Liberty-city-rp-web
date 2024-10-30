@@ -40,14 +40,14 @@ nav a:hover {
 
 .join-button {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #2a2a29;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
 }
 
 .join-button:hover {
-    background-color: #0056b3;
+    background-color: #2a2a29;
 }
 
 footer {
@@ -134,14 +134,14 @@ nav ul li a:hover {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 15px;
-    background: #007BFF;
+    background: #2a2a29;
     color: white;
     text-decoration: none;
     border-radius: 5px;
 }
 
 .join-button:hover, .back-button:hover {
-    background: #0056b3;
+    background: #2a2a29;
 }
 
 footer {
@@ -180,7 +180,7 @@ footer {
 
 .contact-section button {
     padding: 10px 15px;
-    background: #007BFF;
+    background: #2a2a29;
     color: white;
     border: none;
     border-radius: 5px;
@@ -188,7 +188,7 @@ footer {
 }
 
 .contact-section button:hover {
-    background: #0056b3;
+    background: #2a2a29;
 }
 
 .shop-section {
@@ -226,7 +226,7 @@ footer {
 
 .product-card button {
     padding: 10px 15px;
-    background: #007BFF;
+    background: #2a2a29;
     color: white;
     border: none;
     border-radius: 5px;
@@ -234,7 +234,7 @@ footer {
 }
 
 .product-card button:hover {
-    background: #0056b3;
+    background: #2a2a29;
 }
 
 body {
@@ -246,7 +246,7 @@ body {
 }
 
 header {
-    background-color: #007BFF;
+    background-color: #2a2a29;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -280,20 +280,20 @@ nav ul li a {
     display: inline-block;
     margin: 20px 0;
     padding: 10px 20px;
-    background-color: #007BFF;
+    background-color: #2a2a29;
     color: white;
     text-decoration: none;
     border-radius: 5px;
 }
 
 .back-button:hover {
-    background-color: #0056b3;
+    background-color: #2a2a29;
 }
 
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #007BFF;
+    background-color: #2a2a29;
     color: white;
     position: relative;
     bottom: 0;
