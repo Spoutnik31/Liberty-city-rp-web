@@ -1,9 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-image: url('/image/Liberty.jpg'); /* Remplacez par une véritable image si nécessaire */
+    background-image: url('/image/Liberty.jpg'); /* Remplace par une vraie image */
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -56,9 +55,8 @@ footer {
     padding: 10px;
     background: rgba(0, 0, 0, 0.7);
 }
-
 .image-gallery {
-    display: flex;
+    display: flex;  
     justify-content: center; /* Centre les images horizontalement */
     flex-wrap: wrap;
     margin: 20px 0;
@@ -70,7 +68,6 @@ footer {
     border: 2px solid #fff; /* Bordure blanche autour des images */
     border-radius: 10px; /* Coins arrondis */
 }
-
 .texture-gallery {
     display: flex;
     justify-content: center; /* Centre les textures horizontalement */
@@ -95,29 +92,67 @@ footer {
     margin: 20px 0; /* Ajoute une marge au-dessus et au-dessous de la bannière */
 }
 
-.rules-section {
-    padding: 20px;
-    background-color: #fff;
-    max-width: 800px;
-    margin: auto;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-.back-button {
-    display: inline-block;
-    margin: 20px 0;
+header {
+    background: #333;
+    color: #fff;
     padding: 10px 20px;
-    background-color: #007BFF;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.home-section, .rules-section {
+    padding: 20px;
+}
+
+.join-button, .back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background: #007BFF;
     color: white;
     text-decoration: none;
     border-radius: 5px;
 }
 
-.back-button:hover {
-    background-color: #0056b3;
+.join-button:hover, .back-button:hover {
+    background: #0056b3;
 }
 
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
 .contact-section {
     padding: 20px;
 }
@@ -200,6 +235,59 @@ footer {
 
 .product-card button:hover {
     background: #0056b3;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.rules-section {
+    padding: 20px;
+    background-color: #fff;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.back-button {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
 }
 
 footer {
