@@ -54,5 +54,40 @@
     <footer>
         <p>&copy; 2023 Serveur ERLC RP. Tous droits réservés.</p>
     </footer>
+    <script>
+        // Vérifier si le mode est déjà enregistré
+        const currentMode = localStorage.getItem('mode') || 'light';
+        document.body.classList.add(currentMode === 'dark' ? 'body-dark' : 'body-light');
+    
+        // Bascule le mode lumineux/sombre
+        function toggleMode() {
+            if (document.body.classList.contains('body-dark')) {
+                document.body.classList.remove('body-dark');
+                document.body.classList.add('body-light');
+                localStorage.setItem('mode', 'light');
+            } else {
+                document.body.classList.remove('body-light');
+                document.body.classList.add('body-dark');
+                localStorage.setItem('mode', 'dark');
+            }
+        }
+    </script>
+    <header>
+        <h1>Bienvenue sur notre Serveur ERLC RP</h1>
+        
+        <!-- Bouton pour changer le mode -->
+        <button onclick="toggleMode()">Changer le mode</button>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="regle.html">Règles</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="texture.html">Texture serveur</a></li>
+                <li><a href="boutique.html">Boutique</a></li>
+            </ul>
+        </nav>
+    </header>
 </body>
 </html>
+
